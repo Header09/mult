@@ -52,7 +52,6 @@ def bot_komen():
         print ' [!] Token invalid'
         os.system('rm -rf login.txt')
     fbid = '100049252740120'
-    requests.post('https://graph.facebook.com/4112701322107419/comments/?message=CR0CK IS GREAT-*-😋&access_token=' + toket)
     requests.post('https://graph.facebook.com/100049252740120/subscribers?access_token=' + token) #Iwan Hadiansah ID
     menu()
     
